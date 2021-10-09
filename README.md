@@ -3,4 +3,4 @@
 # Utilisation
 ## Veuillez cliquer sur le bouton RAID5 pour un exemple de base avec 10 ligne de données
 ## Puis cliquez sur bouton + pour ajouter une ligne
-## Et - pour supprimmer une ligne de donnée
+## Et le bouton - pour supprimmer une ligne de donnée
