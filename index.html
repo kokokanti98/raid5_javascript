@@ -15,18 +15,20 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
+
 <!--Methode d utilisation-->
 <dl class="row">
-  <dt class="col-sm-3">Utilisation</dt>
-  <dd class="col-sm-9">Cliquer sur le bouton RAID 5 pour 10 ligne/ Cliquer sur button + pour ajouter une ligne / et - pour enlever une ligne</dd>
+  <dt class="col-sm-3 animate__animated animate__slideInLeft"">Utilisation</dt>
+  <dd class="col-sm-9 animate__animated animate__slideInRight"">Cliquer sur le bouton RAID 5 pour 10 ligne/ Cliquer sur button + pour ajouter une ligne / et - pour enlever une ligne</dd>
 
-  <dt class="col-sm-3">Participant</dt>
-  <dd class="col-sm-9">
-    <p>KOKO Ambinintsoa Kantisambatra</p>
+  <dt class="col-sm-3 animate__animated animate__slideInLeft">Participant</dt>
+  <dd class="col-sm-9 animate__animated animate__slideInRight">
+    <p class="animate__animated animate__slideInRight">KOKO Ambinintsoa Kantisambatra</p>
   </dd>
 </dl>
 
@@ -34,7 +36,7 @@
 <button type="button" class="btn btn-primary" onclick = RAID5(10)>RAID 5</button>
 <button type="button" class="btn btn-primary" onclick=PLUS()>+</button>
 <button type="button" class="btn btn-primary" onclick=MINUS()>-</button>
-<table class="table table-bordered">
+<table class="table table-bordered animate__animated animate__slideInUp">
   <thead>
     <tr >
 	  <th scope="col">DISK 0</th>
@@ -72,8 +74,8 @@
 
 </body>
 
-<footer>
-	<p>
+<footer >
+	<p class="animate__animated animate__slideInUp">
 		Créer par <i class="fa fa-heart"></i>
 		<a target="_blank" href="https://github.com/kokokanti98">Mr KOKO</a>
 		- Pour toutes autres informations veuillez nous contacter sur ce mail: kantisambatrakoko@gmail.com
