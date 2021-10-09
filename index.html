@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="FR">
+
+<head>
+    <title>RAID 5 exemple</title>
+
+    <!--fichier css-->
+	<link rel="stylesheet" href="./css/main.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Methode d utilisation-->
+<dl class="row">
+  <dt class="col-sm-3">Utilisation</dt>
+  <dd class="col-sm-9">Cliquer sur le bouton RAID 5 pour 10 ligne/ Cliquer sur button + pour ajouter une ligne / et - pour enlever une ligne</dd>
+
+  <dt class="col-sm-3">Participant</dt>
+  <dd class="col-sm-9">
+    <p>KOKO Ambinintsoa Kantisambatra</p>
+  </dd>
+</dl>
+
+
+<button type="button" class="btn btn-primary" onclick = RAID5(10)>RAID 5</button>
+<button type="button" class="btn btn-primary" onclick=PLUS()>+</button>
+<button type="button" class="btn btn-primary" onclick=MINUS()>-</button>
+<table class="table table-bordered">
+  <thead>
+    <tr >
+	  <th scope="col">DISK 0</th>
+      <th scope="col">DISK 1</th>
+      <th scope="col">DISK 2</th>
+      <th scope="col">DISK 3</th>
+      <th scope="col">DISK 4</th>
+    </tr>
+  </thead>
+  <tbody id="tableau_raid5">
+    <tr>
+      <td scope="row">12</td>
+      <td>Mark</td>
+	  <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td scope="row">2</td>
+      <td>Jacob</td>
+	  <td>Mark</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td scope="row">3</td>
+      <td>Larry</td>
+	  <td>Mark</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</body>
+
+<footer>
+	<p>
+		Créer par <i class="fa fa-heart"></i>
+		<a target="_blank" href="https://github.com/kokokanti98">Mr KOKO</a>
+		- Pour toutes autres informations veuillez nous contacter sur ce mail: kantisambatrakoko@gmail.com
+	</p>
+</footer>
+    <!--pour inclure jquery afin du utiliser certain syntaxe jquery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+
+    <!--fichier javascript-->
+    <script type="text/javascript" src="./js/main.js"></script>
+</html>
