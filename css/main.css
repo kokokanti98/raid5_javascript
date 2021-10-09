@@ -10,7 +10,7 @@ table {
         color: white;
     }
 
-    td, th {
+    td, th, dt, dd {
     border: 1px solid black;
     text-align: left;
     padding: 15px;
